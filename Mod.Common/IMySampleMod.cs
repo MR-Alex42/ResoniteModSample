@@ -1,6 +1,6 @@
-﻿namespace SampleMod
+﻿namespace MySampleMod
 {
-    internal interface ISampleMod
+    internal interface IMySampleMod
     {
         bool Enabled { get; }
 

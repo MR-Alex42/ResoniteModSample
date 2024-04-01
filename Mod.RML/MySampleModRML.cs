@@ -1,16 +1,16 @@
 ﻿using ResoniteModLoader;
 
-namespace SampleMod
+namespace MySampleMod
 {
     /// <summary>
     /// This mod is an implementation based on the example given in https://github.com/resonite-modding-group/ResoniteModLoader/blob/main/doc/making_mods.md.
     /// </summary>
-    public class SampleModRML : ResoniteMod, ISampleMod
+    public class MySampleModRML : ResoniteMod, IMySampleMod
     {
-        public override string Name => "SampleMod";
-        public override string Author => "mpmxyz";
-        public override string Version => "3.0.0"; //Version of the mod, should match the AssemblyVersion
-        public override string Link => "https://github.com/mpmxyz/ResoniteSampleMod";
+        public override string Name => "MySampleMod";
+        public override string Author => "MR_Alex42";
+        public override string Version => "1.0.0"; //Version of the mod, should match the AssemblyVersion
+        public override string Link => "https://github.com/MR-Alex42/ResoniteModSample";
 
 
         //The following
@@ -28,7 +28,7 @@ namespace SampleMod
             PatchesHarmony.Apply(this);
 
             //Various log methods provided by the mod loader, below is an example of how they will look
-            //3:14:42 AM.069 ( -1 FPS)  [INFO] [ResoniteModLoader/SampleMod] a regular log
+            //3:14:42 AM.069 ( -1 FPS)  [INFO] [ResoniteModLoader/MySampleMod] a regular log
             Debug("a debug log");
             Msg("a regular log");
             Warn("a warn log");

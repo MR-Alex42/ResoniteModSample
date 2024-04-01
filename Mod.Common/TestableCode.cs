@@ -1,4 +1,4 @@
-﻿namespace SampleMod
+﻿namespace MySampleMod
 {
     class TestableCode
     {
